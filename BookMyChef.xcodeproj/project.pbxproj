@@ -13,6 +13,48 @@
 		19073CDC23745BE200C42047 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19073CDA23745BE200C42047 /* Main.storyboard */; };
 		19073CDE23745C0900C42047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19073CDD23745C0900C42047 /* Assets.xcassets */; };
 		19073CE123745C0900C42047 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19073CDF23745C0900C42047 /* LaunchScreen.storyboard */; };
+		19073CE923745E9000C42047 /* Login_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19073CE823745E9000C42047 /* Login_ViewController.swift */; };
+		1934B2D723772C7B00DE0A6D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1934B2D623772C7B00DE0A6D /* GoogleService-Info.plist */; };
+		1934B2D923772DB200DE0A6D /* Login_helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1934B2D823772DB200DE0A6D /* Login_helper.swift */; };
+		1934B2DF2377322D00DE0A6D /* GeneralLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1934B2DE2377322D00DE0A6D /* GeneralLayout.swift */; };
+		1934B2E12377332600DE0A6D /* Futura_Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1934B2E02377332500DE0A6D /* Futura_Medium.ttf */; };
+		1934B2E4237737A000DE0A6D /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1934B2E3237737A000DE0A6D /* Theme.swift */; };
+		1949594C237D29DE004BE9D5 /* MenuCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949594B237D29DE004BE9D5 /* MenuCells.swift */; };
+		1949594E237EDE8D004BE9D5 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949594D237EDE8D004BE9D5 /* MenuView.swift */; };
+		19495950237FB0BB004BE9D5 /* MenuBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949594F237FB0BA004BE9D5 /* MenuBottomView.swift */; };
+		19495952237FB65A004BE9D5 /* MenuTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19495951237FB65A004BE9D5 /* MenuTopView.swift */; };
+		1949598A237FE13B004BE9D5 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19495989237FE13B004BE9D5 /* BookViewController.swift */; };
+		194959A4237FE291004BE9D5 /* JTACDayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949598C237FE28B004BE9D5 /* JTACDayCell.swift */; };
+		194959A5237FE291004BE9D5 /* JTACScrollViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949598D237FE28C004BE9D5 /* JTACScrollViewDelegates.swift */; };
+		194959A6237FE291004BE9D5 /* JTACInteractionMonthFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949598E237FE28C004BE9D5 /* JTACInteractionMonthFunctions.swift */; };
+		194959A7237FE291004BE9D5 /* CalendarStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949598F237FE28C004BE9D5 /* CalendarStructs.swift */; };
+		194959A8237FE291004BE9D5 /* JTACYearViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19495990237FE28C004BE9D5 /* JTACYearViewProtocols.swift */; };
+		194959A9237FE291004BE9D5 /* JTACMonthDelegateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19495991237FE28C004BE9D5 /* JTACMonthDelegateProtocol.swift */; };
+		194959AA237FE291004BE9D5 /* JTACCollectionMonthViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19495992237FE28D004BE9D5 /* JTACCollectionMonthViewDelegates.swift */; };
+		194959AB237FE291004BE9D5 /* JTACYearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19495993237FE28D004BE9D5 /* JTACYearView.swift */; };
+		194959AC237FE291004BE9D5 /* JTACVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19495994237FE28D004BE9D5 /* JTACVariables.swift */; };
+		194959AD237FE291004BE9D5 /* JTACMonthActionFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19495995237FE28D004BE9D5 /* JTACMonthActionFunctions.swift */; };
+		194959AE237FE291004BE9D5 /* JTACMonthQueryFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19495996237FE28D004BE9D5 /* JTACMonthQueryFunctions.swift */; };
+		194959AF237FE291004BE9D5 /* JTACMonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19495997237FE28D004BE9D5 /* JTACMonthView.swift */; };
+		194959B0237FE291004BE9D5 /* CalendarEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19495998237FE28E004BE9D5 /* CalendarEnums.swift */; };
+		194959B1237FE291004BE9D5 /* JTACMonthLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19495999237FE28E004BE9D5 /* JTACMonthLayout.swift */; };
+		194959B2237FE291004BE9D5 /* JTACMonthReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949599A237FE28E004BE9D5 /* JTACMonthReusableView.swift */; };
+		194959B3237FE291004BE9D5 /* JTACMonthViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949599B237FE28F004BE9D5 /* JTACMonthViewProtocols.swift */; };
+		194959B4237FE291004BE9D5 /* JTACMonthLayoutProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949599C237FE28F004BE9D5 /* JTACMonthLayoutProtocol.swift */; };
+		194959B5237FE291004BE9D5 /* JTACMonthCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949599D237FE28F004BE9D5 /* JTACMonthCell.swift */; };
+		194959B6237FE291004BE9D5 /* JTACInteractionYearFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949599E237FE28F004BE9D5 /* JTACInteractionYearFunctions.swift */; };
+		194959B7237FE291004BE9D5 /* JTACCollectionYearViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949599F237FE290004BE9D5 /* JTACCollectionYearViewDelegates.swift */; };
+		194959B8237FE291004BE9D5 /* JTACMonthLayoutVerticalCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194959A0237FE290004BE9D5 /* JTACMonthLayoutVerticalCalendar.swift */; };
+		194959B9237FE291004BE9D5 /* GlobalFunctionsAndExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194959A1237FE290004BE9D5 /* GlobalFunctionsAndExtensions.swift */; };
+		194959BA237FE291004BE9D5 /* JTACMonthLayoutHorizontalCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194959A3237FE291004BE9D5 /* JTACMonthLayoutHorizontalCalendar.swift */; };
+		19AE5510237BA97000D3135B /* ChefViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AE550F237BA97000D3135B /* ChefViewController.swift */; };
+		19D4798923825464003E859E /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D4798823825464003E859E /* CalendarHelper.swift */; };
+		19D4798B23826318003E859E /* ChefMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D4798A23826318003E859E /* ChefMenuView.swift */; };
+		19D4798D23827051003E859E /* ChefListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D4798C23827051003E859E /* ChefListViewController.swift */; };
+		19D4798F2382BF7E003E859E /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D4798E2382BF7E003E859E /* Helper.swift */; };
+		19D479932383C8FF003E859E /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D479922383C8FF003E859E /* LoadingView.swift */; };
+		19D479952383D31B003E859E /* VerificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D479942383D31B003E859E /* VerificationController.swift */; };
+		B1D2F21345A78010E09E645E /* Pods_BookMyChef.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A171AD3C3DC43E99B23FB6 /* Pods_BookMyChef.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +66,53 @@
 		19073CDD23745C0900C42047 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19073CE023745C0900C42047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19073CE223745C0900C42047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19073CE823745E9000C42047 /* Login_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_ViewController.swift; sourceTree = "<group>"; };
+		1934B2D623772C7B00DE0A6D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1934B2D823772DB200DE0A6D /* Login_helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login_helper.swift; sourceTree = "<group>"; };
+		1934B2DE2377322D00DE0A6D /* GeneralLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralLayout.swift; sourceTree = "<group>"; };
+		1934B2E02377332500DE0A6D /* Futura_Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Futura_Medium.ttf; sourceTree = "<group>"; };
+		1934B2E3237737A000DE0A6D /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		1949594B237D29DE004BE9D5 /* MenuCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCells.swift; sourceTree = "<group>"; };
+		1949594D237EDE8D004BE9D5 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		1949594F237FB0BA004BE9D5 /* MenuBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBottomView.swift; sourceTree = "<group>"; };
+		19495951237FB65A004BE9D5 /* MenuTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTopView.swift; sourceTree = "<group>"; };
+		19495989237FE13B004BE9D5 /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		1949598C237FE28B004BE9D5 /* JTACDayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACDayCell.swift; sourceTree = "<group>"; };
+		1949598D237FE28C004BE9D5 /* JTACScrollViewDelegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACScrollViewDelegates.swift; sourceTree = "<group>"; };
+		1949598E237FE28C004BE9D5 /* JTACInteractionMonthFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACInteractionMonthFunctions.swift; sourceTree = "<group>"; };
+		1949598F237FE28C004BE9D5 /* CalendarStructs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarStructs.swift; sourceTree = "<group>"; };
+		19495990237FE28C004BE9D5 /* JTACYearViewProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACYearViewProtocols.swift; sourceTree = "<group>"; };
+		19495991237FE28C004BE9D5 /* JTACMonthDelegateProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACMonthDelegateProtocol.swift; sourceTree = "<group>"; };
+		19495992237FE28D004BE9D5 /* JTACCollectionMonthViewDelegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACCollectionMonthViewDelegates.swift; sourceTree = "<group>"; };
+		19495993237FE28D004BE9D5 /* JTACYearView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACYearView.swift; sourceTree = "<group>"; };
+		19495994237FE28D004BE9D5 /* JTACVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACVariables.swift; sourceTree = "<group>"; };
+		19495995237FE28D004BE9D5 /* JTACMonthActionFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACMonthActionFunctions.swift; sourceTree = "<group>"; };
+		19495996237FE28D004BE9D5 /* JTACMonthQueryFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACMonthQueryFunctions.swift; sourceTree = "<group>"; };
+		19495997237FE28D004BE9D5 /* JTACMonthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACMonthView.swift; sourceTree = "<group>"; };
+		19495998237FE28E004BE9D5 /* CalendarEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarEnums.swift; sourceTree = "<group>"; };
+		19495999237FE28E004BE9D5 /* JTACMonthLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACMonthLayout.swift; sourceTree = "<group>"; };
+		1949599A237FE28E004BE9D5 /* JTACMonthReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACMonthReusableView.swift; sourceTree = "<group>"; };
+		1949599B237FE28F004BE9D5 /* JTACMonthViewProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACMonthViewProtocols.swift; sourceTree = "<group>"; };
+		1949599C237FE28F004BE9D5 /* JTACMonthLayoutProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACMonthLayoutProtocol.swift; sourceTree = "<group>"; };
+		1949599D237FE28F004BE9D5 /* JTACMonthCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACMonthCell.swift; sourceTree = "<group>"; };
+		1949599E237FE28F004BE9D5 /* JTACInteractionYearFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACInteractionYearFunctions.swift; sourceTree = "<group>"; };
+		1949599F237FE290004BE9D5 /* JTACCollectionYearViewDelegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACCollectionYearViewDelegates.swift; sourceTree = "<group>"; };
+		194959A0237FE290004BE9D5 /* JTACMonthLayoutVerticalCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACMonthLayoutVerticalCalendar.swift; sourceTree = "<group>"; };
+		194959A1237FE290004BE9D5 /* GlobalFunctionsAndExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalFunctionsAndExtensions.swift; sourceTree = "<group>"; };
+		194959A2237FE290004BE9D5 /* JTAppleCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTAppleCalendar.h; sourceTree = "<group>"; };
+		194959A3237FE291004BE9D5 /* JTACMonthLayoutHorizontalCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACMonthLayoutHorizontalCalendar.swift; sourceTree = "<group>"; };
+		19AE550F237BA97000D3135B /* ChefViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefViewController.swift; sourceTree = "<group>"; };
+		19D4798823825464003E859E /* CalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
+		19D4798A23826318003E859E /* ChefMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefMenuView.swift; sourceTree = "<group>"; };
+		19D4798C23827051003E859E /* ChefListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefListViewController.swift; sourceTree = "<group>"; };
+		19D4798E2382BF7E003E859E /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		19D479902382C195003E859E /* Futura_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Futura_Bold.ttf; sourceTree = "<group>"; };
+		19D479912383A018003E859E /* BookMyChef.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BookMyChef.entitlements; sourceTree = "<group>"; };
+		19D479922383C8FF003E859E /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		19D479942383D31B003E859E /* VerificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationController.swift; sourceTree = "<group>"; };
+		B9A171AD3C3DC43E99B23FB6 /* Pods_BookMyChef.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookMyChef.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC35EE059AA155C40F336DA5 /* Pods-BookMyChef.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookMyChef.release.xcconfig"; path = "Pods/Target Support Files/Pods-BookMyChef/Pods-BookMyChef.release.xcconfig"; sourceTree = "<group>"; };
+		E307645CB2D13CA9CFE2DC72 /* Pods-BookMyChef.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookMyChef.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BookMyChef/Pods-BookMyChef.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1D2F21345A78010E09E645E /* Pods_BookMyChef.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +132,8 @@
 			children = (
 				19073CD323745BE200C42047 /* BookMyChef */,
 				19073CD223745BE200C42047 /* Products */,
+				7BF0BCEC6F3895E0650A14F2 /* Pods */,
+				7F32C7122A3C953F8BF75ED6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +148,132 @@
 		19073CD323745BE200C42047 /* BookMyChef */ = {
 			isa = PBXGroup;
 			children = (
-				19073CD423745BE200C42047 /* AppDelegate.swift */,
-				19073CD623745BE200C42047 /* SceneDelegate.swift */,
-				19073CD823745BE200C42047 /* ViewController.swift */,
-				19073CDA23745BE200C42047 /* Main.storyboard */,
-				19073CDD23745C0900C42047 /* Assets.xcassets */,
-				19073CDF23745C0900C42047 /* LaunchScreen.storyboard */,
+				19D479912383A018003E859E /* BookMyChef.entitlements */,
+				1949598B237FE27B004BE9D5 /* JTCalendar */,
 				19073CE223745C0900C42047 /* Info.plist */,
+				1934B2D623772C7B00DE0A6D /* GoogleService-Info.plist */,
+				19073CD623745BE200C42047 /* SceneDelegate.swift */,
+				19073CD423745BE200C42047 /* AppDelegate.swift */,
+				1934B2E22377332E00DE0A6D /* Resources */,
+				1934B2E62377389B00DE0A6D /* Misc */,
+				1934B2E52377388C00DE0A6D /* Login */,
+				19073CDD23745C0900C42047 /* Assets.xcassets */,
+				1934B2E7237738B900DE0A6D /* Trash */,
+				19495954237FDD61004BE9D5 /* ChefControllers */,
+				19D4798C23827051003E859E /* ChefListViewController.swift */,
 			);
 			path = BookMyChef;
+			sourceTree = "<group>";
+		};
+		1934B2E22377332E00DE0A6D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1934B2DE2377322D00DE0A6D /* GeneralLayout.swift */,
+				1934B2E3237737A000DE0A6D /* Theme.swift */,
+				19D479902382C195003E859E /* Futura_Bold.ttf */,
+				1934B2E02377332500DE0A6D /* Futura_Medium.ttf */,
+				19D4798E2382BF7E003E859E /* Helper.swift */,
+				19D479922383C8FF003E859E /* LoadingView.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1934B2E52377388C00DE0A6D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				19073CD823745BE200C42047 /* ViewController.swift */,
+				1934B2D823772DB200DE0A6D /* Login_helper.swift */,
+				19073CE823745E9000C42047 /* Login_ViewController.swift */,
+				19D479942383D31B003E859E /* VerificationController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		1934B2E62377389B00DE0A6D /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		1934B2E7237738B900DE0A6D /* Trash */ = {
+			isa = PBXGroup;
+			children = (
+				19073CDA23745BE200C42047 /* Main.storyboard */,
+				19073CDF23745C0900C42047 /* LaunchScreen.storyboard */,
+			);
+			path = Trash;
+			sourceTree = "<group>";
+		};
+		19495953237FC90E004BE9D5 /* MenuView */ = {
+			isa = PBXGroup;
+			children = (
+				1949594B237D29DE004BE9D5 /* MenuCells.swift */,
+				1949594D237EDE8D004BE9D5 /* MenuView.swift */,
+				1949594F237FB0BA004BE9D5 /* MenuBottomView.swift */,
+				19495951237FB65A004BE9D5 /* MenuTopView.swift */,
+			);
+			path = MenuView;
+			sourceTree = "<group>";
+		};
+		19495954237FDD61004BE9D5 /* ChefControllers */ = {
+			isa = PBXGroup;
+			children = (
+				19AE550F237BA97000D3135B /* ChefViewController.swift */,
+				19495953237FC90E004BE9D5 /* MenuView */,
+				19495989237FE13B004BE9D5 /* BookViewController.swift */,
+				19D4798823825464003E859E /* CalendarHelper.swift */,
+				19D4798A23826318003E859E /* ChefMenuView.swift */,
+			);
+			path = ChefControllers;
+			sourceTree = "<group>";
+		};
+		1949598B237FE27B004BE9D5 /* JTCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				19495998237FE28E004BE9D5 /* CalendarEnums.swift */,
+				1949598F237FE28C004BE9D5 /* CalendarStructs.swift */,
+				194959A1237FE290004BE9D5 /* GlobalFunctionsAndExtensions.swift */,
+				19495992237FE28D004BE9D5 /* JTACCollectionMonthViewDelegates.swift */,
+				1949599F237FE290004BE9D5 /* JTACCollectionYearViewDelegates.swift */,
+				1949598C237FE28B004BE9D5 /* JTACDayCell.swift */,
+				1949598E237FE28C004BE9D5 /* JTACInteractionMonthFunctions.swift */,
+				1949599E237FE28F004BE9D5 /* JTACInteractionYearFunctions.swift */,
+				19495995237FE28D004BE9D5 /* JTACMonthActionFunctions.swift */,
+				1949599D237FE28F004BE9D5 /* JTACMonthCell.swift */,
+				19495991237FE28C004BE9D5 /* JTACMonthDelegateProtocol.swift */,
+				19495999237FE28E004BE9D5 /* JTACMonthLayout.swift */,
+				194959A3237FE291004BE9D5 /* JTACMonthLayoutHorizontalCalendar.swift */,
+				1949599C237FE28F004BE9D5 /* JTACMonthLayoutProtocol.swift */,
+				194959A0237FE290004BE9D5 /* JTACMonthLayoutVerticalCalendar.swift */,
+				19495996237FE28D004BE9D5 /* JTACMonthQueryFunctions.swift */,
+				1949599A237FE28E004BE9D5 /* JTACMonthReusableView.swift */,
+				19495997237FE28D004BE9D5 /* JTACMonthView.swift */,
+				1949599B237FE28F004BE9D5 /* JTACMonthViewProtocols.swift */,
+				1949598D237FE28C004BE9D5 /* JTACScrollViewDelegates.swift */,
+				19495994237FE28D004BE9D5 /* JTACVariables.swift */,
+				19495993237FE28D004BE9D5 /* JTACYearView.swift */,
+				19495990237FE28C004BE9D5 /* JTACYearViewProtocols.swift */,
+				194959A2237FE290004BE9D5 /* JTAppleCalendar.h */,
+			);
+			path = JTCalendar;
+			sourceTree = "<group>";
+		};
+		7BF0BCEC6F3895E0650A14F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E307645CB2D13CA9CFE2DC72 /* Pods-BookMyChef.debug.xcconfig */,
+				BC35EE059AA155C40F336DA5 /* Pods-BookMyChef.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7F32C7122A3C953F8BF75ED6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9A171AD3C3DC43E99B23FB6 /* Pods_BookMyChef.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +283,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19073CE523745C0900C42047 /* Build configuration list for PBXNativeTarget "BookMyChef" */;
 			buildPhases = (
+				9D1CFF0E0890EC7D32252E03 /* [CP] Check Pods Manifest.lock */,
 				19073CCD23745BE200C42047 /* Sources */,
 				19073CCE23745BE200C42047 /* Frameworks */,
 				19073CCF23745BE200C42047 /* Resources */,
+				46DEE2B27D4EBADC63BB6552 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +337,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				19073CE123745C0900C42047 /* LaunchScreen.storyboard in Resources */,
+				1934B2D723772C7B00DE0A6D /* GoogleService-Info.plist in Resources */,
+				1934B2E12377332600DE0A6D /* Futura_Medium.ttf in Resources */,
 				19073CDE23745C0900C42047 /* Assets.xcassets in Resources */,
 				19073CDC23745BE200C42047 /* Main.storyboard in Resources */,
 			);
@@ -133,13 +346,95 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		46DEE2B27D4EBADC63BB6552 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BookMyChef/Pods-BookMyChef-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BookMyChef/Pods-BookMyChef-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D1CFF0E0890EC7D32252E03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BookMyChef-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		19073CCD23745BE200C42047 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1934B2E4237737A000DE0A6D /* Theme.swift in Sources */,
+				194959A9237FE291004BE9D5 /* JTACMonthDelegateProtocol.swift in Sources */,
+				194959A8237FE291004BE9D5 /* JTACYearViewProtocols.swift in Sources */,
+				1949594E237EDE8D004BE9D5 /* MenuView.swift in Sources */,
+				194959AF237FE291004BE9D5 /* JTACMonthView.swift in Sources */,
+				1949594C237D29DE004BE9D5 /* MenuCells.swift in Sources */,
+				19495952237FB65A004BE9D5 /* MenuTopView.swift in Sources */,
+				19D4798923825464003E859E /* CalendarHelper.swift in Sources */,
+				194959B9237FE291004BE9D5 /* GlobalFunctionsAndExtensions.swift in Sources */,
+				19073CE923745E9000C42047 /* Login_ViewController.swift in Sources */,
+				194959B0237FE291004BE9D5 /* CalendarEnums.swift in Sources */,
+				194959AB237FE291004BE9D5 /* JTACYearView.swift in Sources */,
+				194959B5237FE291004BE9D5 /* JTACMonthCell.swift in Sources */,
+				194959B6237FE291004BE9D5 /* JTACInteractionYearFunctions.swift in Sources */,
+				194959B1237FE291004BE9D5 /* JTACMonthLayout.swift in Sources */,
+				194959A5237FE291004BE9D5 /* JTACScrollViewDelegates.swift in Sources */,
+				194959B8237FE291004BE9D5 /* JTACMonthLayoutVerticalCalendar.swift in Sources */,
+				194959BA237FE291004BE9D5 /* JTACMonthLayoutHorizontalCalendar.swift in Sources */,
+				19D479952383D31B003E859E /* VerificationController.swift in Sources */,
 				19073CD923745BE200C42047 /* ViewController.swift in Sources */,
+				194959A6237FE291004BE9D5 /* JTACInteractionMonthFunctions.swift in Sources */,
+				1934B2DF2377322D00DE0A6D /* GeneralLayout.swift in Sources */,
+				1934B2D923772DB200DE0A6D /* Login_helper.swift in Sources */,
+				194959B7237FE291004BE9D5 /* JTACCollectionYearViewDelegates.swift in Sources */,
+				194959B4237FE291004BE9D5 /* JTACMonthLayoutProtocol.swift in Sources */,
+				19D4798D23827051003E859E /* ChefListViewController.swift in Sources */,
+				194959B2237FE291004BE9D5 /* JTACMonthReusableView.swift in Sources */,
+				19D479932383C8FF003E859E /* LoadingView.swift in Sources */,
+				19AE5510237BA97000D3135B /* ChefViewController.swift in Sources */,
+				19D4798B23826318003E859E /* ChefMenuView.swift in Sources */,
+				19D4798F2382BF7E003E859E /* Helper.swift in Sources */,
+				194959A7237FE291004BE9D5 /* CalendarStructs.swift in Sources */,
+				194959B3237FE291004BE9D5 /* JTACMonthViewProtocols.swift in Sources */,
+				1949598A237FE13B004BE9D5 /* BookViewController.swift in Sources */,
+				194959AE237FE291004BE9D5 /* JTACMonthQueryFunctions.swift in Sources */,
+				194959AC237FE291004BE9D5 /* JTACVariables.swift in Sources */,
 				19073CD523745BE200C42047 /* AppDelegate.swift in Sources */,
+				194959A4237FE291004BE9D5 /* JTACDayCell.swift in Sources */,
+				194959AD237FE291004BE9D5 /* JTACMonthActionFunctions.swift in Sources */,
+				194959AA237FE291004BE9D5 /* JTACCollectionMonthViewDelegates.swift in Sources */,
+				19495950237FB0BB004BE9D5 /* MenuBottomView.swift in Sources */,
 				19073CD723745BE200C42047 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,11 +577,14 @@
 		};
 		19073CE623745C0900C42047 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E307645CB2D13CA9CFE2DC72 /* Pods-BookMyChef.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BookMyChef/BookMyChef.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8U8ABLMRK4;
 				INFOPLIST_FILE = BookMyChef/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,16 +593,21 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
 			};
 			name = Debug;
 		};
 		19073CE723745C0900C42047 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC35EE059AA155C40F336DA5 /* Pods-BookMyChef.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BookMyChef/BookMyChef.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8U8ABLMRK4;
 				INFOPLIST_FILE = BookMyChef/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,6 +616,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
 			};
 			name = Release;
 		};
