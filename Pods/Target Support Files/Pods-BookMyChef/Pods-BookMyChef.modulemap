@@ -1,0 +1,6 @@
+framework module Pods_BookMyChef {
+  umbrella header "Pods-BookMyChef-umbrella.h"
+
+  export *
+  module * { export * }
+}
